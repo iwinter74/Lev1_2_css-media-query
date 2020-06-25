@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0
+}
+main {
+    display: flex;
+    height: 90vh
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+#section1 {
+    width: 50%
+}
+#section1 header {
+    padding-top: 0.5em;
+    padding-left: 5%
+}
+#section1 p {
+    padding-bottom: 10em;
+    padding-left: 5%;
+    width: 40%;
+}
+#section1 h1 {
+    font-size: 2em;
+    padding-top: 5em;
+    padding-bottom: 2em;
+    padding-left: 5%
+}
+#section2 {
+    background: url("https://www.wright20.com/items/index/2000/104_2_dieter_rams_the_jf_chen_collection_july_2018_artur_braun_and_fritz_eichler_sk_25_radio__wright_auction.jpg?t=1536592304") center/cover no-repeat;
+    height: 90vh;
+    width: 50%
+}
+footer {
+    height: 10vh;
+    background: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer1 {
+    display: flex;
+    justify-content: space-between;
+    width: 50%
+}
+#footer2 {
+    display: flex;
+    justify-content: space-between;
+    width: 50%
+}
+footer ul {
+    list-style: none;
+    display: flex;
+    padding-top: 20%
+}
+footer ul li {
+    padding-right: 1em;
+    padding-left: 1em;
+}
+.arrow {
+    height: 10vh;
+    width: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+#arrow2 {
+    background: black;
+    color: white;
+}
+@media (max-width: 576px)
+{ 
+    main {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 45vh 45vh 10vh
+    }
+    #section1 {
+        grid-row: 1/2;
+        height: 45vh;
+        width: 100%
+    }
+    #section2 {
+        grid-row: 2/3;
+        height: 45vh;
+        width: 100%
+    }
+    #footer {
+        grid-row: 3/4;
+        height: 10vh
+    }
+    #rams {
+        font-size: 0.8em;
+    }
+    #section1 h1 {
+        padding-top: 5vh;
+        padding-bottom: 0;
+        width: 80%
+    }
+    #section1 p {
+        padding-bottom: 5vh;
+        padding-top: 5vh;
+        padding-left: 5%;
+        width: 80%;
+    }
+    }
+
